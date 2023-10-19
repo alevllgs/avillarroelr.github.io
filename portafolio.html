@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Portafolio Andrés Villarroel</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const inicioSection = document.getElementById('inicio');
+            inicioSection.classList.add('fadeIn');
+        });
+    </script>
+</head>ƒ
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Andrés Villarroel</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#conocimientos">Conocimientos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#proyectos">Mis Proyectos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contacto">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Curriculum</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section id="inicio" class="fadein">
+            <div class="sec_bienvenida">
+                <h1>¡Bienvenido a mi Portafolio!</h1>
+                <p>Programador Web, Soporte de Sistemas</p>
+            </div>
+        </section>
+        <section id="conocimientos">
+            <h2>Mis Conocimientos</h2>
+            <div class="icon-grid rounded-start">
+                <div class="icon-box">
+                    <i class="fab fa-html5"></i>
+                    <p>HTML5</p>
+                </div>
+                <div class="icon-box">
+                    <i class="fab fa-css3-alt"></i>
+                    <p>CSS3</p>
+                </div>
+                <div class="icon-box">
+                    <i class="fab fa-bootstrap"></i>
+                    <p>Bootstrap</p>
+                </div>
+                <div class="icon-box">
+                    <i class="fab fa-js"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="icon-box">
+                    <i class="fab fa-php"></i>
+                    <p>Php</p>
+                </div>
+                <div class="icon-box">
+                    <i class="fab fa-java"></i>
+                    <p>Java</p>
+                </div>
+                <div class="icon-box">
+                    <i class="fas fa-database"></i>
+                    <p>SQL</p>
+                </div>
+                <div class="icon-box">
+                    <i class="fas fa-database"></i>
+                    <p>Mysql</p>
+                </div>
+                <div class="icon-box">
+                    <i class="fas fa-network-wired"></i>
+                    <p>Cisco</p>
+                </div>
+                <div class="icon-box">
+                    <i class="fab fa-windows"></i>
+                    <p>Windows</p>
+                </div>
+                <div class="icon-box">
+                    <i class="fab fa-linux"></i>
+                    <p>Linux</p>
+                </div>
+                <div class="icon-box">
+                    <i class="fab fa-apple"></i>
+                    <p>Mac</p>
+                </div>
+                <div class="icon-box">
+                    <i class="fab fa-microsoft"></i>
+                    <p>Office 365</p>
+                </div>
+                <div class="icon-box">
+                    <i class="fas fa-shield-virus"></i>
+                    <p>Esset Cloud Security</p>
+                </div>
+                <div class="icon-box">
+                    <i class="fas fa-laptop"></i>
+                    <p>Soporte Computacional</p>
+                </div>
+
+            </div>
+        </section>
+        <section id="proyectos">
+            <h2>Galería de Proyectos</h2>
+
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="assets/img/compufactory.jpg" class="d-block w-100 img_galery" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>COMPUFACTORY</h5>
+                            <p>Proyecto desafío introduccion al CSS.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="assets/img/iguana.jpg" class="d-block w-100 img_galery" alt="..." >
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>IGUANA PAGE</h5>
+                            <p>Proyecto desafío del capítulo de Flexbox.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/cuppon.jpg" class="d-block w-100 img_galery" alt="..." >
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>CUPPON</h5>
+                            <p>Proyecto desafío del capítulo de bootstrap.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <div class="mb-3 text-center">
+                    <h4>Dejame un mensaje</h4>
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="exampleInputText" placeholder="Nombre">
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="exampleInputEmail" placeholder="Correo Electrónico">
+                </div>
+                <div class="mb-3 text-center">
+                    <button type="submit" class="btn text-dark bg-light">ENVIAR</button>
+                </div>
+            </form>
+            <footer>
+                <div class="card text-center">
+                    <div class="card-body">
+                        <p class="card-text">Andrés Villarroel Romero &copy; 2023 - Todos los derechos reservados.</p>
+                    </div>
+                </div>
+            </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

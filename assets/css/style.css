@@ -1,0 +1,83 @@
+.imgcv {
+    width: 60%;
+    height: auto;
+    margin: 1%;
+    border: 3px solid gray; 
+}
+section {
+    margin-top:1%;
+    margin-bottom: 1%;
+}
+.ptexto{
+    text-align: justify;
+}
+.sec_bienvenida {
+    text-align: center;
+    padding: 100px 0;
+    background-image: url("../img/bienvenida.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+
+}
+.fadeIn {
+    opacity: 0;
+    animation: fadeInAnimation 2s ease forwards;
+}
+@keyframes fadeInAnimation {
+    to {
+        opacity: 2;
+    }
+}
+/* Estilo para la cuadrícula de iconos */
+.icon-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px; 
+    transition: transform 0.3s ease; 
+}
+
+
+.icon-box i {
+    font-size: 36px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease; 
+}
+
+
+.icon-box p {
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.icon-box:hover {
+    transform: scale(1.05);
+}
+
+
+.icon-box i:hover {
+    transform: rotate(360deg);
+}
+
+.img_galery{
+    width: 40%;
+    height: auto;
+    padding: 5%;
+    opacity:50%;
+    border: 5px solid gray; 
+}
+.color_black {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
